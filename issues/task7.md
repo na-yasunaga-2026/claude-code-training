@@ -415,15 +415,17 @@ performance-optimizerサブエージェントを使って、
 最適化の提案を実装してください。
 ```
 
-### チャレンジ4: カスタムコマンド作成
+### チャレンジ4: Skill 作成
 
-実装した機能に関連するカスタムコマンドを作成：
+実装した機能に関連するSkillを作成：
 
 ```markdown
-<!-- .claude/commands/add-feature.md -->
+<!-- .claude/skills/add-feature/SKILL.md -->
 ---
-description: 新しい機能ページを追加
+name: add-feature
+description: 指定した名前で Next.js の新機能ページ・コンポーネント・API Route を一括追加する
 argument-hint: <feature-name>
+allowed-tools: Read, Write, Edit, Glob
 ---
 
 「$1」という名前の新機能ページを追加してください。

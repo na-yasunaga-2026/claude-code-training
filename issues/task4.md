@@ -140,7 +140,7 @@ Next.js 16の公式ドキュメントから、App Routerでの
 
 ## 次のステップ
 
-✅ WebSearchの使い方をマスターできたら、[task5.md](./task5.md)に進んでカスタムコマンドを作成しましょう！
+✅ WebSearchの使い方をマスターできたら、[task5.md](./task5.md)に進んで Skill を作成しましょう！
 
 ## 発展課題（時間がある場合）
 
